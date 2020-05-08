@@ -1,6 +1,12 @@
 # WhenIsGreat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+This is going to be a knock-off website of "whenisgood.net" I want to add a few features that doodlepoll has such as a tiered acceptance system (Time is good -> can make time work, but is less preferable -> can't make it). Also, want to be able to import .cal files so that I can automagically show which spots the person already has blocked out to other things. Also, make it HTTPS because that is super easy and I don't know why whenisgood isn't doing it especially since they allow users to create accounts with passwords.
+
+# Credits / Sources:
+Code file structure from: https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
+
+
 
 ## Development server
 
