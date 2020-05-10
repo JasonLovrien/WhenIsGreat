@@ -12,6 +12,28 @@ Each page is its own module with its own components. The page modules are lazily
 
 
 # TO DOs
+- Start Input Form for grid creation (between THESE dates)
+
+- Continue calendar grid to take input from grid creation input and change days and
+
+- Create pipe to show 0 as January etc.
+
+- Finish Input Form for grid creation (timezones, select which times etc.)
+
+- Finish calendar grid to be able to select times on the days and store which days are selected.
+
+- Create second step component on CreatePoll that allows user to select time
+
+- Create dyanmo Amazon database to hold the calendars (store, create hash to use as url, create hash to view url?)
+
+- Create page that can get a calendar from database, select times, and store in database.
+
+- Set up OAuth 2.0 (fro google calendars)
+
+- Set up ability to import calendar events from certain times and put those in the viewing
+
+- Allow users to select a URL
+
 - Enable selective preloading so that the 404 doesn't get preloaded. The odds of someone needing that while on the site is low. Only load it if they go to that page. The only reason they'd need it is if they're pasting a link, so they weren't already on the page for it to load anyways! (If that's how it works. Maybe allowing the preloading of 404 would make it cached? And if I don't then it won't be? shrug)
 
 # Credits / Sources:

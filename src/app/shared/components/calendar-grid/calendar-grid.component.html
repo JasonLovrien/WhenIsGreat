@@ -1,1 +1,17 @@
 <p>calendar-grid works!</p>
+
+
+<!-- Outer Loop: Months. Looping through each month so they will be in their own grid.-->
+<div *ngFor='let month of monthsHere'> 
+    <h1>{{month.name}} </h1> 
+        <mat-grid-list cols='7'>
+            <!-- Inner Loop: Days. Looping through each day to creat a button in the month grid -->
+            <div *ngFor='let day of month.dates'>
+                <mat-grid-tile>
+                    <div *ngIf='day.active'>
+                        {{day.num}}
+                    </div>
+                </mat-grid-tile> 
+            </div>
+        </mat-grid-list>
+</div> 
